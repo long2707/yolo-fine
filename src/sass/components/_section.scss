@@ -1,0 +1,18 @@
+.section {
+  // margin-bottom: 80px;
+
+  & > * ~ * {
+      margin-top: 70px;
+  }
+
+  &__title {
+      font-size: 2rem;
+      text-transform: capitalize;
+      text-align: center;
+     margin-top: 50px;
+  }
+  
+  // &__body{
+  //   margin-top: 50px;
+  // }
+}

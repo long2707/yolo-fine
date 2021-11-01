@@ -1,0 +1,28 @@
+.footer{
+    padding: 50px 0;
+    box-shadow: $box-shadow;
+    font-size: 1.1rem;
+    @include tablet{
+        text-align: center;
+    }
+    &__logo{
+        height: 38px;
+       
+    }
+    &__about{
+        p{
+            margin-bottom: 2rem;
+        }
+    }
+    &__title{
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 2rem;
+
+    }
+    &__content{
+        p{
+            margin-bottom: 2rem;
+        }
+    }
+}
